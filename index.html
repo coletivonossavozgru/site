@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coletivo Nossa Voz Guarulhos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <header>
         <div class="image-header">
-          <img src="img/logo_coletivo.png" alt="" routerLink="">
+            <img src="img/logo_coletivo.png" alt="" routerLink="">
         </div>
-      
+
         <nav class="nav-header">
-      
-          <div *ngIf="isLogged; else loginAndRegister" class="content-user-menu">
-      
-            <a href="/">Ínicio</a>
-            <a href="/projetos">Projetos</a>
-          </div>
-      
-          <ng-template #loginAndRegister>
-            <div class="btn-login-nav">
+
+            <div *ngIf="isLogged; else loginAndRegister" class="content-user-menu">
+
+                <a href="/">Ínicio</a>
+                <a href="/projetos">Projetos</a>
             </div>
-          </ng-template>
+
+            <ng-template #loginAndRegister>
+                <div class="btn-login-nav">
+                </div>
+            </ng-template>
         </nav>
-      </header>
+    </header>
 
 
     <div class="banner">
         <div class="content-banner">
             <div class="container">
-                <h1>Voz Ativa de 1 Com o Eco de 6</h1>
+                <h1>Voz Ativa de 1 com o Eco de 6</h1>
             </div>
         </div>
     </div>
 
     <div class="container porque-coletivo">
 
-        
+
         <div class="conteudo">
 
             <h1>Por que um coletivo?</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestias aut dolorem, autem eum soluta. Nam, molestiae! Accusamus consectetur facilis, dolorem provident voluptatibus illum debitis quod dolor labore. Quisquam, ad.
-                Cupiditate maxime magnam ab nihil veritatis unde voluptatum consequatur vero quis provident molestiae ad voluptate tempora alias animi, corrupti eius obcaecati, beatae commodi dolore minus officia. Cum perferendis vitae velit!
-                Iste vel, itaque cupiditate alias veritatis iure exercitationem, est nisi nobis quidem culpa. Ipsam culpa qui amet doloremque cum, exercitationem in, sequi voluptatibus eveniet corrupti officia sint aperiam cumque voluptatem!
+                Optamos pelo mandato coletivo para trazer diversas melhorias e transformar positivamente a política em
+                nosso município. Com seis pessoas reunidas em torno de um único representante, garantimos pluralidade
+                nas decisões, igualdade de gênero e diversidade de experiências e conhecimentos. <br>
+
+                Nossa equipe, composta por três homens e três mulheres, promove políticas mais inclusivas e sensíveis às
+                necessidades de todos. Além disso, como servidores públicos de diferentes áreas da prefeitura, temos uma
+                visão holística dos desafios municipais. Essa expertise diversificada facilita a identificação de pontos
+                críticos e a implementação de soluções eficazes para melhorar os serviços públicos e atender às demandas
+                da população de maneira mais eficiente. <br>
+
+                Nosso mandato coletivo é um exemplo de governança participativa, onde o poder é compartilhado e a voz da
+                comunidade é amplamente representada. Estamos comprometidos em servir à população de maneira justa e
+                alinhada com suas necessidades, buscando constantemente melhorar a qualidade de vida em nosso município,
+                promovendo também a valorização dos servidores públicos como parte importante dessa missão.
             </p>
         </div>
 
@@ -56,27 +70,11 @@
             <img src="/img/porque_coletivo.jpeg" alt="">
         </div>
     </div>
+    <hr>
 
-    <div class="container porque-coletivo">
-
-        <div class="imagem">
-
-            <img src="/img/porque_coletivo.jpeg" alt="">
-        </div>
-    </div>
-
-
-    <div class="conteudo">
-
-        <h1>Por que um coletivo?</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestias aut dolorem, autem eum soluta. Nam, molestiae! Accusamus consectetur facilis, dolorem provident voluptatibus illum debitis quod dolor labore. Quisquam, ad.
-            Cupiditate maxime magnam ab nihil veritatis unde voluptatum consequatur vero quis provident molestiae ad voluptate tempora alias animi, corrupti eius obcaecati, beatae commodi dolore minus officia. Cum perferendis vitae velit!
-            Iste vel, itaque cupiditate alias veritatis iure exercitationem, est nisi nobis quidem culpa. Ipsam culpa qui amet doloremque cum, exercitationem in, sequi voluptatibus eveniet corrupti officia sint aperiam cumque voluptatem!
-        </p>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

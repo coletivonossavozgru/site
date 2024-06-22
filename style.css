@@ -221,3 +221,8 @@ main{
 .porque-coletivo .imagem {
     width: 100%;
 }
+
+.porque-coletivo p{
+
+    text-align: justify;
+}
