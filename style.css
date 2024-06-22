@@ -1,0 +1,204 @@
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.img-header img {
+    width: 100%;
+    height: 100px;
+}
+
+body,  html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 100px;
+    background-color: #F6F8FF;
+    position: sticky;
+    border-bottom: 1px solid #272d2d4f;
+}
+header .image-header {
+  height: 100%;
+}
+
+header .image-header img{
+    height: 100%;
+    cursor: pointer;
+}
+
+header .nav-header{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .nav-header .content-user-menu{
+  display: flex;
+  gap: 13px;
+}
+
+header .nav-header .content-user-menu a{
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 5px;
+}
+
+header .nav-header .icon-header mat-icon{
+  transform: scale(0.9);
+}
+
+header .nav-header .icon-header mat-icon:hover{
+  cursor: pointer;
+}
+
+header .nav-header ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+header .nav-header ul li{
+    list-style: none;
+    font-size: 1.03em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+header .nav-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+header .nav-header .btn-login-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav-header .btn-login-nav .btn-login, .btn-sign-up{
+
+    background-color: #272D2D;
+    padding: 15px 22px;
+    border-radius: 14px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+header .nav-header .btn-login-nav .btn-sign-up{
+    background-color: #08335d;
+    margin-left: 4px;
+}
+
+header .user-informations{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+header .user-informations:hover{
+
+  cursor: pointer;
+}
+
+header .user-informations img{
+    border-radius: 50%;
+    width: 100%;
+    padding: 5px;
+}
+
+header .btn-to-show-menu-user{
+    background-color: transparent;
+    border: none;
+}
+
+header .user-informations .icon-user-menu{
+    margin-left: -6px;
+}
+
+.link-user-menu {
+    text-decoration: none;
+    color: inherit;
+}
+
+header .content-user-menu{
+    display: flex;
+    align-items: center;
+}
+
+header a, header .content-user-menu {
+    background-color: inherit;
+}
+
+header * {
+    background-color: inherit;
+}
+
+main{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.quem-somos {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.quem-somos {
+    
+    width: 100%;
+}
+
+.quem-somos h1{
+    margin-bottom: 7px;
+}
+
+.quem-somos img {
+    width: 100%;
+    border-radius: 13px;
+}
+
+.banner {
+
+    height: 80vh;
+    background-image: url("/img/quem_somos.jpeg");
+    width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.content-banner {
+    background-color: #000000;
+    height: 80vh;
+    opacity: 0.75;
+}
+
+.content-banner  {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.content-banner .container h1 {
+    
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
