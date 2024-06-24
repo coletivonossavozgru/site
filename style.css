@@ -182,7 +182,7 @@ main {
 
 .banner {
     height: 80vh;
-    background-image: url("/img/quem_somos.jpeg");
+    background-image: url("https://raw.githubusercontent.com/coletivonossavozgru/site/main/img/quem_somos.jpeg");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
