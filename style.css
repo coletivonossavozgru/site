@@ -12,6 +12,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
+    background-color: #FFA500 !important;
 }
 
 .img-header img {
@@ -210,16 +211,19 @@ main {
 
 .porque-coletivo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1.5fr 1fr;
     margin-top: 10px;
     background-color: #F6F8FF;
-    padding: 10px;
+    padding: 30px;
     border-radius: 13px;
 }
-
+.porque-coletivo .imagem{
+    display: flex;
+    justify-content: center;
+}
 .porque-coletivo img {
     border-radius: 13px;
+    width: 90%;
 }
 
 .porque-coletivo .imagem {
@@ -263,4 +267,8 @@ main {
 
 .missao-visao-valores ul li {
     margin-bottom: 10px;
+}
+
+.laranja {
+    color: #FFA500;
 }
