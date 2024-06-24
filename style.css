@@ -1,3 +1,9 @@
+/* Font family for the entire document */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -207,6 +213,9 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-top: 10px;
+    background-color: #F6F8FF;
+    padding: 10px;
+    border-radius: 13px;
 }
 
 .porque-coletivo img {
