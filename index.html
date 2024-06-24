@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -20,7 +21,6 @@
         <nav class="nav-header">
 
             <div *ngIf="isLogged; else loginAndRegister" class="content-user-menu">
-
                 <a href="/">Ínicio</a>
                 <a href="/projetos">Projetos</a>
             </div>
@@ -32,7 +32,6 @@
         </nav>
     </header>
 
-
     <div class="banner">
         <div class="content-banner">
             <div class="container">
@@ -42,34 +41,67 @@
     </div>
 
     <div class="container porque-coletivo">
-
-
         <div class="conteudo">
-
             <h1>Por que um coletivo?</h1>
             <p>
                 Optamos pelo mandato coletivo para trazer diversas melhorias e transformar positivamente a política em
                 nosso município. Com seis pessoas reunidas em torno de um único representante, garantimos pluralidade
                 nas decisões, igualdade de gênero e diversidade de experiências e conhecimentos. <br>
-
                 Nossa equipe, composta por três homens e três mulheres, promove políticas mais inclusivas e sensíveis às
                 necessidades de todos. Além disso, como servidores públicos de diferentes áreas da prefeitura, temos uma
                 visão holística dos desafios municipais. Essa expertise diversificada facilita a identificação de pontos
                 críticos e a implementação de soluções eficazes para melhorar os serviços públicos e atender às demandas
                 da população de maneira mais eficiente. <br>
-
                 Nosso mandato coletivo é um exemplo de governança participativa, onde o poder é compartilhado e a voz da
                 comunidade é amplamente representada. Estamos comprometidos em servir à população de maneira justa e
                 alinhada com suas necessidades, buscando constantemente melhorar a qualidade de vida em nosso município,
                 promovendo também a valorização dos servidores públicos, pois isso implica em uma valorização direta do serviço público. 
             </p>
         </div>
-
         <div class="imagem">
-
             <img src="/img/porque_coletivo.jpeg" alt="">
         </div>
     </div>
+
+    <div class="container missao-visao-valores">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <i class="bi bi-bullseye icon"></i>
+                        <h2>Missão</h2>
+                        <p>Nossa missão é representar e servir a população com transparência, equidade e eficácia, garantindo que todas as vozes sejam ouvidas e consideradas nas decisões políticas. Valorizamos e representamos dignamente a classe de servidores públicos, promovendo uma gestão que respeite seus direitos e interesses, em conjunto com toda a comunidade.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <i class="bi bi-eye icon"></i>
+                        <h2>Visão</h2>
+                        <p>Nossa visão é ser um modelo inovador de governança coletiva, reconhecido por sua capacidade de transformar a política local através da participação ativa e igualitária de todos os cidadãos, incluindo os servidores públicos. Queremos construir uma sociedade mais justa, onde as políticas públicas reflitam verdadeiramente as necessidades e os desejos da comunidade como um todo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <i class="bi bi-heart icon"></i>
+                        <h2>Valores</h2>
+                        <ul>
+                            <li><strong>Inclusão:</strong> Acreditamos na importância de ouvir e representar todas as vozes, garantindo que ninguém seja deixado de fora, incluindo os servidores públicos.</li>
+                            <li><strong>Igualdade de Gênero:</strong> Comprometemo-nos com a paridade de gênero, assegurando que homens e mulheres tenham igual representatividade e influência nas decisões.</li>
+                            <li><strong>Transparência:</strong> Priorizamos a clareza e a abertura em todas as nossas ações, promovendo a confiança e o envolvimento da população e dos servidores públicos.</li>
+                            <li><strong>Eficiência:</strong> Buscamos soluções práticas e rápidas para os problemas do município, utilizando nossa experiência interna para melhorar os serviços públicos e contribuir para o bem-estar de toda a comunidade.</li>
+                            <li><strong>Participação Democrática:</strong> Encorajamos a participação cidadã e o compartilhamento de poder, fortalecendo a democracia participativa entre todos os cidadãos e os servidores públicos.</li>
+                            <li><strong>Inovação:</strong> Estamos comprometidos com a modernização da política, buscando constantemente novas formas de governança mais eficazes e representativas, que beneficiem a população e os servidores públicos de forma equitativa.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <hr>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

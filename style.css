@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -13,13 +13,12 @@ header {
     height: 100px;
 }
 
-body,  html {
-    width: 100vw;
+body, html {
+    max-width: 100vw;
     min-height: 100vh;
 }
 
-
-header{
+header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -29,45 +28,47 @@ header{
     position: sticky;
     border-bottom: 1px solid #272d2d4f;
 }
+
 header .image-header {
-  height: 100%;
+    height: 100%;
 }
 
-header .image-header img{
+header .image-header img {
     height: 100%;
     cursor: pointer;
 }
 
-header .nav-header{
+header .nav-header {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-header .nav-header .content-user-menu{
-  display: flex;
-  gap: 13px;
+header .nav-header .content-user-menu {
+    display: flex;
+    gap: 13px;
 }
 
-header .nav-header .content-user-menu a{
-  text-decoration: none;
-  color: inherit;
-  margin-bottom: 5px;
+header .nav-header .content-user-menu a {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 5px;
 }
 
-header .nav-header .icon-header mat-icon{
-  transform: scale(0.9);
+header .nav-header .icon-header mat-icon {
+    transform: scale(0.9);
 }
 
-header .nav-header .icon-header mat-icon:hover{
-  cursor: pointer;
+header .nav-header .icon-header mat-icon:hover {
+    cursor: pointer;
 }
 
-header .nav-header ul li a{
+header .nav-header ul li a {
     text-decoration: none;
     color: inherit;
 }
-header .nav-header ul li{
+
+header .nav-header ul li {
     list-style: none;
     font-size: 1.03em;
     font-weight: 500;
@@ -81,13 +82,14 @@ header .nav-header ul {
     align-items: center;
     gap: 15px;
 }
-header .nav-header .btn-login-nav{
+
+header .nav-header .btn-login-nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header .nav-header .btn-login-nav .btn-login, .btn-sign-up{
 
+header .nav-header .btn-login-nav .btn-login, .btn-sign-up {
     background-color: #272D2D;
     padding: 15px 22px;
     border-radius: 14px;
@@ -96,35 +98,34 @@ header .nav-header .btn-login-nav .btn-login, .btn-sign-up{
     cursor: pointer;
 }
 
-header .nav-header .btn-login-nav .btn-sign-up{
+header .nav-header .btn-login-nav .btn-sign-up {
     background-color: #08335d;
     margin-left: 4px;
 }
 
-header .user-informations{
+header .user-informations {
     display: flex;
     align-items: center;
     width: 70px;
     margin-bottom: 5px;
 }
 
-header .user-informations:hover{
-
-  cursor: pointer;
+header .user-informations:hover {
+    cursor: pointer;
 }
 
-header .user-informations img{
+header .user-informations img {
     border-radius: 50%;
     width: 100%;
     padding: 5px;
 }
 
-header .btn-to-show-menu-user{
+header .btn-to-show-menu-user {
     background-color: transparent;
     border: none;
 }
 
-header .user-informations .icon-user-menu{
+header .user-informations .icon-user-menu {
     margin-left: -6px;
 }
 
@@ -133,7 +134,7 @@ header .user-informations .icon-user-menu{
     color: inherit;
 }
 
-header .content-user-menu{
+header .content-user-menu {
     display: flex;
     align-items: center;
 }
@@ -146,7 +147,7 @@ header * {
     background-color: inherit;
 }
 
-main{
+main {
     padding: 10px 20px;
     background-color: white;
     border-radius: 13px;
@@ -154,18 +155,16 @@ main{
 }
 
 .quem-somos {
-    
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
 
 .quem-somos {
-    
     width: 100%;
 }
 
-.quem-somos h1{
+.quem-somos h1 {
     margin-bottom: 7px;
 }
 
@@ -175,11 +174,9 @@ main{
 }
 
 .banner {
-
     height: 80vh;
     background-image: url("/img/quem_somos.jpeg");
     width: 100%;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -191,14 +188,13 @@ main{
     opacity: 0.75;
 }
 
-.content-banner  {
+.content-banner {
     display: flex;
     align-items: top;
     justify-content: center;
 }
 
 .content-banner .container h1 {
-    
     font-size: 3.5em;
     font-weight: bold;
     color: white;
@@ -207,14 +203,13 @@ main{
 }
 
 .porque-coletivo {
-    
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-top: 10px;
 }
 
-.porque-coletivo img{
+.porque-coletivo img {
     border-radius: 13px;
 }
 
@@ -222,7 +217,41 @@ main{
     width: 100%;
 }
 
-.porque-coletivo p{
-
+.porque-coletivo p {
     text-align: justify;
+}
+
+.missao-visao-valores {
+    margin-top: 20px;
+}
+
+.missao-visao-valores .card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.missao-visao-valores .icon {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.missao-visao-valores h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.missao-visao-valores p, .missao-visao-valores ul {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.missao-visao-valores ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.missao-visao-valores ul li {
+    margin-bottom: 10px;
 }
