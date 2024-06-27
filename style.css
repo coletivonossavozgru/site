@@ -225,7 +225,7 @@ main {
 .porque-coletivo img {
     border-radius: 13px;
     width: 90%;
-    height: 70%;
+    height: 500px;
 }
 
 .porque-coletivo .imagem {
@@ -273,4 +273,13 @@ main {
 
 .laranja {
     color: #FFA500;
+}
+
+.missao-visao-valores .card {
+
+    margin: 19px;
+}
+
+.lista {
+    display: flex;
 }

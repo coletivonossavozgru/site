@@ -1,5 +1,9 @@
 /* Estilos para dispositivos móveis (até 767px) */
 @media (max-width: 767px) {
+
+    .lista {
+        flex-direction: column;
+    }
     header {
         padding: 10px 20px;
     }
@@ -54,7 +58,6 @@
     }
 
     .col-md-3 {
-        margin-right: 0;
     }
     .card-body {
     }
