@@ -52,6 +52,12 @@
     .porque-coletivo p {
         font-size: 0.95em;
     }
+
+    .col-md-3 {
+        margin-right: 0;
+    }
+    .card-body {
+    }
 }
 
 /* Estilos para tablets e dispositivos maiores (768px a 991px) */

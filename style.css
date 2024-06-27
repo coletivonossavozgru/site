@@ -1,6 +1,7 @@
 /* Font family for the entire document */
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 
